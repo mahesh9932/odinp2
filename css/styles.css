@@ -1,0 +1,19 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.container div {
+    border: 2px solid black;
+    /* height: 100px; */
+    background-color: aquamarine;
+    /* width: 25%; */
+}
+.container div.black {
+    background-color: rgb(0,0,0);
+}
+
